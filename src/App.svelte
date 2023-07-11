@@ -5,7 +5,7 @@
   import { sleep } from "./util.js";
 
   const LUOXU_URL = "https://tgsearch.kadama.eu.org/luoxu";
-  const islocal = LUOXU_URL.startsWith("http://localhost");
+  const islocal = LUOXU_URL.startsWith("http://localhost:9008");
   let groups: { group_id: string; name: string }[] = [];
   let group: string;
   let query: string;
