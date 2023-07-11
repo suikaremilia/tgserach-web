@@ -68,13 +68,13 @@
         }
       }
       if (query && group_name) {
-        document.title = `搜索：${query} 于 ${group_name} - 落絮`;
+        document.title = `搜索：${query} 于 ${group_name} - 竹新`;
       } else if (query) {
-        document.title = `搜索：${query} - 落絮`;
+        document.title = `搜索：${query} - 竹新`;
       } else if (group_name) {
-        document.title = `搜索 ${group_name} - 落絮`;
+        document.title = `搜索 ${group_name} - 竹新`;
       } else {
-        document.title = "落絮";
+        document.title = "竹新";
       }
       need_update_title = false;
     }
