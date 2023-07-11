@@ -4,7 +4,7 @@
   import Name from "./Name.svelte";
   import { sleep } from "./util.js";
 
-  const LUOXU_URL = "https://tgsearch.kadama.eu.org/luoxu";
+  const LUOXU_URL = "http://tgsearch.kadama.eu.org/luoxu";
   const islocal = LUOXU_URL.startsWith("http://localhost:9008");
   let groups: { group_id: string; name: string }[] = [];
   let group: string;
