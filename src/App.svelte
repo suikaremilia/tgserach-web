@@ -7,7 +7,7 @@
   import { sleep } from "./util.js";
   import "./global.css";
 
-  const LUOXU_URL = "https://tgsearch.kadama.eu.org/luoxu";
+  const LUOXU_URL = "https://newsearch.kadama.eu.org/luoxu";
   const islocal = LUOXU_URL.startsWith("http://localhost");
   let groups: { group_id: string; name: string }[] = $state([]);
   let group: string = $state();
