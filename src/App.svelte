@@ -71,13 +71,13 @@
         }
       }
       if (query && group_name) {
-        document.title = `搜索：${query} 于 ${group_name} - 落絮`;
+        document.title = `搜索：${query} 于 ${group_name} - 竹新`;
       } else if (query) {
-        document.title = `搜索：${query} - 落絮`;
+        document.title = `搜索：${query} - 竹新`;
       } else if (group_name) {
-        document.title = `搜索 ${group_name} - 落絮`;
+        document.title = `搜索 ${group_name} - 竹新`;
       } else {
-        document.title = "落絮";
+        document.title = "竹新";
       }
       need_update_title = false;
     }
@@ -240,7 +240,7 @@
       <ul>
         <li>以空格分开的多个搜索词是「与」的关系</li>
         <li>使用 OR（全大写）来表达「或」条件</li>
-        <li>使用 - 来表达排除，如 落絮 - 测试</li>
+        <li>使用 - 来表达排除，如 竹新 - 测试</li>
         <li>使用小括号来分组</li>
       </ul>
       <p>人名补全支持上下方向键和 Alt+N/P 进行选择。</p>
