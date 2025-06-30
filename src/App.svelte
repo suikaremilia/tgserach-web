@@ -250,7 +250,7 @@
   {/if}
 
   {#if loading}
-    <div class="info"><p>正在加载...</p></div>
+    <div class="info"><p>少女祈祷中...</p></div>
   {:else}
     {#if error}
       <p class="error">{error}</p>
