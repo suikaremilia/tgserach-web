@@ -200,7 +200,7 @@
   <div id="searchbox">
     {#if groups.length === 0}
       <select>
-        <option selected>正在加载群组信息...</option>
+        <option selected>少女祈祷中...</option>
       </select>
     {:else}
       <select bind:value={group} onchange={on_group_change}>
@@ -243,8 +243,6 @@
         <li>使用 - 来表达排除，如 竹新 - 测试</li>
         <li>使用小括号来分组</li>
       </ul>
-      <p>人名补全支持上下方向键和 Alt+N/P 进行选择。</p>
-      <p>
         搜索结果右下角的时间，悬停可查看绝对时间、最后编辑时间（如编辑过），点击可跳转到
         Telegram 中展示该消息。
       </p>
